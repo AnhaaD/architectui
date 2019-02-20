@@ -26,7 +26,9 @@ export default class DataTableCustomComps extends React.Component {
         const {data} = this.state;
 
         return (
+            <Fragment></Fragment>,
             <Fragment>
+
                 <ReactCSSTransitionGroup
                     component="div"
                     transitionName="TabsAnimation"
