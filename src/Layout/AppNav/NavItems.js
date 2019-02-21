@@ -1,9 +1,5 @@
 export const MainNav = [
-   /*{
-        icon: 'pe-7s-config',
-        label: 'Documentation',
-        to: '#/documentation/main',
-    },*/
+
     {
         icon: 'pe-7s-date',
         label: 'Calendar',
@@ -16,10 +12,10 @@ export const MainNav = [
     },
     {
         icon: 'pe-7s-paper-plane',
-        label: 'Paperwork',
+        label: 'PaperWork',
         to: '#/tables/datatables-custom-components',
 
-    },
+    }/*
     {
     icon: 'pe-7s-rocket',
     label: 'Dashboards',
@@ -107,8 +103,11 @@ export const MainNav = [
             // },
         ],
     },
+    */
 ];
+
 export const ComponentsNav = [
+    /*
     {
         icon: 'pe-7s-diamond',
         label: 'Elements',
@@ -294,8 +293,10 @@ export const ComponentsNav = [
             },
         ]
     },
+    */
 ];
 export const FormsNav = [
+    /*
     {
         icon: 'pe-7s-light',
         label: 'Elements',
@@ -393,9 +394,10 @@ export const FormsNav = [
             // },
         ],
     },
-
+    */
 ];
 export const WidgetsNav = [
+    /*
     {
         icon: 'pe-7s-graph2',
         label: 'Chart Boxes',
@@ -424,8 +426,10 @@ export const WidgetsNav = [
     //     label: 'Content Boxes',
     //     to: '#/widgets/content-boxes',
     // },
+    */
 ];
 export const ChartsNav = [
+    /*
     {
         icon: 'pe-7s-graph2',
         label: 'ChartJS',
@@ -451,4 +455,5 @@ export const ChartsNav = [
     //     label: 'Chart Sparklines 2',
     //     to: '#/charts/sparklines-2',
     // },
+    */
 ];

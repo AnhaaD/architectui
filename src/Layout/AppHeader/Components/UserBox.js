@@ -91,77 +91,6 @@ class UserBox extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="scroll-area-xs" style={{
-                                            height: '150px'
-                                        }}>
-                                            <PerfectScrollbar>
-                                                <Nav vertical>
-                                                    <NavItem className="nav-item-header">
-                                                        Activity
-                                                    </NavItem>
-                                                    <NavItem>
-                                                        <NavLink href="javascript:void(0);">
-                                                            Chat
-                                                            <div className="ml-auto badge badge-pill badge-info">8</div>
-                                                        </NavLink>
-                                                    </NavItem>
-                                                    <NavItem>
-                                                        <NavLink href="javascript:void(0);">Recover Password</NavLink>
-                                                    </NavItem>
-                                                    <NavItem className="nav-item-header">
-                                                        My Account
-                                                    </NavItem>
-                                                    <NavItem>
-                                                        <NavLink href="javascript:void(0);">
-                                                            Settings
-                                                            <div className="ml-auto badge badge-success">New</div>
-                                                        </NavLink>
-                                                    </NavItem>
-                                                    <NavItem>
-                                                        <NavLink href="javascript:void(0);">
-                                                            Messages
-                                                            <div className="ml-auto badge badge-warning">512</div>
-                                                        </NavLink>
-                                                    </NavItem>
-                                                    <NavItem>
-                                                        <NavLink href="javascript:void(0);">
-                                                            Logs
-                                                        </NavLink>
-                                                    </NavItem>
-                                                </Nav>
-                                            </PerfectScrollbar>
-                                        </div>
-                                        <Nav vertical>
-                                            <NavItem className="nav-item-divider mb-0"/>
-                                        </Nav>
-                                        <div className="grid-menu grid-menu-2col">
-                                            <Row className="no-gutters">
-                                                <Col sm="6">
-                                                    <Button
-                                                        className="btn-icon-vertical btn-transition btn-transition-alt pt-2 pb-2"
-                                                        outline color="warning">
-                                                        <i className="pe-7s-chat icon-gradient bg-amy-crisp btn-icon-wrapper mb-2"> </i>
-                                                        Message Inbox
-                                                    </Button>
-                                                </Col>
-                                                <Col sm="6">
-                                                    <Button
-                                                        className="btn-icon-vertical btn-transition btn-transition-alt pt-2 pb-2"
-                                                        outline color="danger">
-                                                        <i className="pe-7s-ticket icon-gradient bg-love-kiss btn-icon-wrapper mb-2"> </i>
-                                                        <b>Support Tickets</b>
-                                                    </Button>
-                                                </Col>
-                                            </Row>
-                                        </div>
-                                        <Nav vertical>
-                                            <NavItem className="nav-item-divider"/>
-                                            <NavItem className="nav-item-btn text-center">
-                                                <Button size="sm" className="btn-wide" color="primary">
-                                                    Open Messages
-                                                </Button>
-                                            </NavItem>
-                                        </Nav>
                                     </DropdownMenu>
                                 </UncontrolledButtonDropdown>
                             </div>
@@ -173,16 +102,6 @@ class UserBox extends React.Component {
                                     VP People Manager
                                 </div>
                             </div>
-
-                            {/*<div className="widget-content-right header-user-info ml-3">*/}
-                                {/*<Button className="btn-shadow p-1" size="sm" onClick={this.notify2} color="info"*/}
-                                        {/*id="Tooltip-1">*/}
-                                    {/*<Ionicon color="#ffffff" fontSize="20px" icon="ios-calendar-outline"/>*/}
-                                {/*</Button>*/}
-                                {/*<UncontrolledTooltip placement="bottom" target={'Tooltip-1'}>*/}
-                                    {/*Click for Toastify Notifications!*/}
-                                {/*</UncontrolledTooltip>*/}
-                            {/*</div>*/}
                         </div>
                     </div>
                 </div>

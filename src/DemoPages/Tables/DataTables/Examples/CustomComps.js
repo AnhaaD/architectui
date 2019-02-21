@@ -26,9 +26,7 @@ export default class DataTableCustomComps extends React.Component {
         const {data} = this.state;
 
         return (
-            <Fragment></Fragment>,
             <Fragment>
-
                 <ReactCSSTransitionGroup
                     component="div"
                     transitionName="TabsAnimation"
@@ -44,72 +42,6 @@ export default class DataTableCustomComps extends React.Component {
                         />
                     </div>
                     <Row>
-                        {/*<Col md="12">*/}
-                            {/*<Card className="main-card mb-3">*/}
-                                {/*<CardBody>*/}
-                                    {/*<ReactTable*/}
-                                        {/*data={data}*/}
-                                        {/*columns={[{*/}
-                                            {/*columns: [{*/}
-                                                {/*Header: 'First Name',*/}
-                                                {/*accessor: 'firstName'*/}
-                                            {/*}, {*/}
-                                                {/*Header: 'Last Name',*/}
-                                                {/*id: 'lastName',*/}
-                                                {/*accessor: d => d.lastName*/}
-                                            {/*}]*/}
-                                        {/*}, {*/}
-                                            {/*columns: [{*/}
-                                                {/*Header: 'Profile Progress',*/}
-                                                {/*accessor: 'progress',*/}
-                                                {/*Cell: row => (*/}
-
-
-                                                    {/*<div className="progress-bar-sm progress"*/}
-                                                         {/*style={{*/}
-                                                             {/*width: '100%',*/}
-                                                             {/*backgroundColor: '#dadada',*/}
-                                                         {/*}}*/}
-                                                    {/*>*/}
-                                                        {/*<div className="progress-bar"*/}
-                                                             {/*style={{*/}
-                                                                 {/*width: `${row.value}%`,*/}
-                                                                 {/*backgroundColor: row.value > 66 ? '#3ac47d'*/}
-                                                                     {/*: row.value > 33 ? '#fd7e14'*/}
-                                                                         {/*: '#d92550',*/}
-                                                                 {/*borderRadius: '2px',*/}
-                                                                 {/*transition: 'all .2s ease-out'*/}
-                                                             {/*}}*/}
-                                                        {/*/>*/}
-                                                    {/*</div>*/}
-                                                {/*)*/}
-                                            {/*}, {*/}
-                                                {/*Header: 'Status',*/}
-                                                {/*accessor: 'status',*/}
-                                                {/*Cell: row => (*/}
-                                                    {/*<span>*/}
-                                                    {/*<span style={{*/}
-                                                        {/*color: row.value === 'relationship' ? '#d92550'*/}
-                                                            {/*: row.value === 'complicated' ? '#fd7e14'*/}
-                                                                {/*: '#3ac47d',*/}
-                                                        {/*transition: 'all .3s ease'*/}
-                                                    {/*}}>*/}
-                                                      {/*&#x25cf;*/}
-                                                    {/*</span> {*/}
-                                                        {/*row.value === 'relationship' ? 'In a relationship'*/}
-                                                            {/*: row.value === 'complicated' ? `It's complicated`*/}
-                                                            {/*: 'Single'*/}
-                                                    {/*}*/}
-                                                {/*</span>*/}
-                                                {/*)*/}
-                                            {/*}]*/}
-                                        {/*}]}*/}
-                                        {/*defaultPageSize={10}*/}
-                                        {/*className="-striped -highlight"*/}
-                                    {/*/>*/}
-                                {/*</CardBody>*/}
-                            {/*</Card>*/}
-                        {/*</Col>*/}
                         <Col md="12">
                             <Card className="main-card mb-3">
                                 <CardBody>
@@ -128,24 +60,14 @@ export default class DataTableCustomComps extends React.Component {
                                                         <div>
                                                             <div className="widget-content p-0">
                                                                 <div className="widget-content-wrapper">
-                                                                    <div className="widget-content-left mr-3">
-                                                                        <div className="widget-content-left">
-                                                                            <img width={52} className="rounded-circle"
-                                                                                 src={avatar2}
-                                                                                 alt=""/>
-                                                                        </div>
-                                                                    </div>
                                                                     <div className="widget-content-left flex2">
                                                                         <div className="widget-heading">
                                                                             {row.value}
                                                                         </div>
                                                                         <div className="widget-subheading opacity-10">
-                                                                    <span className="pr-2">
-                                                                        <b className="text-danger">12</b> Leads
-                                                                    </span>
                                                                             <span>
-                                                                        <b className="text-success">$56,24</b> Totals
-                                                                    </span>
+                                                                                <b className="text-success">56,24</b>
+                                                                            </span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
